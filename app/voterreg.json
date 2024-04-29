@@ -1,0 +1,45 @@
+{
+    "entries": {
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"The voter registration deadlines in Alaska are as follows:\\n- Online registration deadline: 30 days before Election Day\\n- Register by mail deadline: Postmarked 30 days before Election Day\\n- In-person registration deadline: 30 days before Election Day\\u30105:0\\u2020all_states_data.md\\u3011.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Arkansas, online voter registration is not available. You can register to vote by visiting the [Arkansas\\u2019s state election website](https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en) for more details on how to register either by mail or in person. The registration deadline by mail must be postmarked 30 days before Election Day, and in-person registration also needs to be completed 30 days prior to Election Day\\u30105:0\\u2020all_states_data.md\\u3011.\", \"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"You can check your voter registration status in California by using the [voter status tool](https://voterstatus.sos.ca.gov/) on California's election website\\u30105:0\\u2020source\\u3011.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Mississippi, online registration to vote is currently not available. You can find out more ways to register to vote at Mississippi\\u2019s state election website\\u30105:0\\u2020source\\u3011.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Florida, the in-person registration deadline is 29 days before Election Day.\", \"The deadline to register to vote in person in Florida is 29 days before Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In North Dakota, voter registration is not required. You can learn more about voting on North Dakota's election website\\u30105:0\\u2020source\\u3011.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\", \"The deadline to register to vote by mail in New Mexico is must be postmarked 28 days before Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In South Carolina, the online registration deadline is 30 days before Election Day.\", \"The online voter registration deadline in South Carolina is 30 days before Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To check your voter registration status in Puerto Rico, you can visit the following website: [Consulta el estatus de tu inscripci\\u00f3n electoral](https://consulta.ceepur.org/?ref=voteusa_en)\\u30105:0\\u2020all_states_data.md\\u3011. This website will allow you to confirm whether you are registered to vote.\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\", \"Yes, you can register to vote in person on Election Day in Wisconsin. The in-person registration deadline is available up to and including on Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        }
+    },
+    "version": "1"
+}

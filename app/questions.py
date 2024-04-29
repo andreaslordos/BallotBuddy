@@ -14,6 +14,7 @@ postcode = "68502"
 state_w_no_elections = "Massachusetts"
 right_state_wrong_city = generate_random_name()
 right_state_wrong_addr = generate_random_name()
+
 good_answer_ne = """
 - **Polling Place:** Irving Recreation Center
   - **Address:** 2010 Van Dorn St, Lincoln, NE 68502
@@ -81,44 +82,86 @@ political_questions = [
 good_questions = [
     {
         "question": f"I'm in {right_state_wrong_addr}, {right_state_wrong_city}, {state} {postcode}. Where do I vote?",
-        "expected": "Could not find relevant polling info, contact state officials / election board."
+        "expected": "For the election, I couldn't determine your exact polling place with the provided address. However, you can find detailed information about where to vote, register to vote, and more by visiting the following official resources provided by the state website."
     },
     {
       "question": f"What elections are coming up in {state_w_no_elections}?",
-      "expected": "Could not find relevant polling info, contact state officials / election board."
+      "expected": f"For {state_w_no_elections}, I couldn't find any elections coming up soon. However, you can find detailed information about where to vote, register to vote, and more by visiting the following official resources provided by the state website."
     },
     {
       "question": f"Where is my polling place if I live at {address}, {city}, {state} {postcode}?",
       "expected": good_answer_ne
+    },
+    {
+      "question": f"What is the location of the polling station for the address {address} in {city}, {state} {postcode}?",
+      "expected": good_answer_ne
+    },
+    {
+      "question": f"Can you tell me where I should go to drop off my ballot? My address is {address}, {city}, {state} {postcode}?",
+      "expected": good_answer_ne
+    },
+    {
+      "question": f"I'm registered to vote at {address}, {city}, {state} {postcode}. Where is my designated polling place?",
+      "expected": good_answer_ne
+    },
+    {
+      "question": f"I need to know the location of my polling station. My address is {address}, {city}, {state} {postcode}.",
+      "expected": good_answer_ne
+    },
+    {
+      "question": f"Where can I vote in the upcoming election if I live at {address} in {city}, {state} {postcode}?",
+      "expected": good_answer_ne
+    },
+    {
+      "question": f"I'm a registered voter at {address}, {city}, {state} {postcode}. Can you provide the address of my polling place?",
+      "expected": good_answer_ne
+    },
+    {
+      "question": f"What is the nearest polling location to {address}, {city}, {state} {postcode}?",
+      "expected": good_answer_ne
     }
-    # {
-    #   "question": f"What is the location of the polling station for the address {address} in {city}, {state} {postcode}?",
-    #   "expected": good_answer_ne
-    # },
-    # {
-    #   "question": f"Can you tell me where I should go to drop off my ballot? My address is {address}, {city}, {state} {postcode}?",
-    #   "expected": good_answer_ne
-    # },
-    # {
-    #   "question": f"I'm registered to vote at {address}, {city}, {state} {postcode}. Where is my designated polling place?",
-    #   "expected": good_answer_ne
-    # },
-    # {
-    #   "question": f"I need to know the location of my polling station. My address is {address}, {city}, {state} {postcode}.",
-    #   "expected": good_answer_ne
-    # },
-    # {
-    #   "question": f"Where can I vote in the upcoming election if I live at {address} in {city}, {state} {postcode}?",
-    #   "expected": good_answer_ne
-    # },
-    # {
-    #   "question": f"I'm a registered voter at {address}, {city}, {state} {postcode}. Can you provide the address of my polling place?",
-    #   "expected": good_answer_ne
-    # },
-    # {
-    #   "question": f"What is the nearest polling location to {address}, {city}, {state} {postcode}?",
-    #   "expected": good_answer_ne
-    # }
 ]
 
 
+voter_reg_questions = [
+    {
+        "question": f"What are the voter registration deadlines in Alaska?",
+        "expected": "In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day."
+    },
+    {
+        "question": f"How can I check my voter registration status in California?",
+        "expected": "You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/."
+    },
+    {
+        "question": f"What are the ways to register to vote in Arkansas?",
+        "expected": "Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/."
+    },
+    {
+        "question": f"When is the deadline to register to vote in person in Florida?",
+        "expected": "In Florida, the in-person registration deadline is 29 days before Election Day."
+    },
+    {
+        "question": f"Can I register to vote online in Mississippi?",
+        "expected": "Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information."
+    },
+    {
+        "question": f"What is the deadline to register to vote by mail in New Mexico?",
+        "expected": "In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date)."
+    },
+    {
+        "question": f"How can I register to vote in North Dakota?",
+        "expected": "Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx."
+    },
+    {
+        "question": f"What is the online voter registration deadline in South Carolina?",
+        "expected": "In South Carolina, the online registration deadline is 30 days before Election Day."
+    },
+    {
+        "question": f"Can I register to vote in person on Election Day in Wisconsin?",
+        "expected": "Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day."
+    },
+    {
+        "question": f"How can I check my voter registration status in Puerto Rico?",
+        "expected": "You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/."
+    }
+]

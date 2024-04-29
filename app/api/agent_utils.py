@@ -27,7 +27,7 @@ def askBallotBuddy(threadID, assistantID, user):
             tool_call_id = call.id
             function_name = call.function.name
             arguments = json.loads(call.function.arguments)  # Assuming arguments are already in the form of a dictionary
-            print(f"{tool_call_id}: calling {function_name} with arguments: {arguments}")
+            #print(f"{tool_call_id}: calling {function_name} with arguments: {arguments}")
             
             # Based on the function name, decide which Python function to call.
             if function_name == "getPollingPlace":
@@ -37,30 +37,30 @@ def askBallotBuddy(threadID, assistantID, user):
                 result = user.getInfo()
             # Append the output for this function call to the outputs list
             outputs.append({"tool_call_id": tool_call_id, "output": str(result)})
-        print(f"Returning outputs {outputs}")
+        #print(f"Returning outputs {outputs}")
         return outputs
 
-    print("-----")
-    print("Asking BallotBuddy for a response")
+    #print("-----")
+    #print("Asking BallotBuddy for a response")
     # Poll the Assistants API for a completed response from an assistant run
     run = run_chat(threadID, assistantID, user)
     while True:
-        print("askBallotBuddy response status: %s", run.status)
+        #print("askBallotBuddy response status: %s", run.status)
         if run.status == 'completed':
-            print("Received completed response from askBallotBuddy")
+            #print("Received completed response from askBallotBuddy")
             break
         elif run.status == 'failed':
             # something went wrong
-            print("Failed")
+            #print("Failed")
             return ["Something went wrong, please try again later."]
         elif run.status == 'requires_action':
-            print("askBallotBuddy response requires action")
+            #print("askBallotBuddy response requires action")
 
             # Get the action prompt from the run
             toolId = run.required_action.submit_tool_outputs.tool_calls[0].id
             runId = run.id
 
-            print("Tool ID: {} and Run ID: {} and Thread ID: {}".format(toolId, runId, threadID))
+            #print("Tool ID: {} and Run ID: {} and Thread ID: {}".format(toolId, runId, threadID))
 
             toolOutputs = process_run_object(run)
 
@@ -70,7 +70,7 @@ def askBallotBuddy(threadID, assistantID, user):
                 tool_outputs=toolOutputs
             )
 
-            print("askBallotBuddy response action submitted")
+            #print("askBallotBuddy response action submitted")
 
 
         time.sleep(1)  # wait for 1 second before polling the status again
@@ -85,6 +85,6 @@ def askBallotBuddy(threadID, assistantID, user):
         # TODO: Check that r has .text.value
         response_list.append(r.text.value)
     
-    # print("Returning: ", response_list)
-    print("-----")
+    # #print("Returning: ", response_list)
+    #print("-----")
     return response_list

@@ -62,19 +62,19 @@ class User(Model):
         '''
         Figure out what optional and mandatory attributes are still missing.
         '''
-        print("Trying to figure out what attributes are still missing")
+        #print("Trying to figure out what attributes are still missing")
         optional_missing = []
         mandatory_missing = []
         editable_attributes = self.getEditables().keys()
         for attribute in editable_attributes:
             value = getattr(self, attribute, None)
-            print(attribute, value)
+            #print(attribute, value)
             if attribute in self.essentials and value is None:
                 mandatory_missing.append(attribute)
             elif value is None:
                 optional_missing.append(attribute)
-        print("Mandatory attributes still missing:",str(mandatory_missing))
-        print("Optional attributes still missing:",str(optional_missing))
+        #print("Mandatory attributes still missing:",str(mandatory_missing))
+        #print("Optional attributes still missing:",str(optional_missing))
         return {'mandatory_address_fields_missing': mandatory_missing, 'optional_address_fields_missing': optional_missing}
     
 
@@ -91,9 +91,9 @@ class User(Model):
         '''
         Creates new thread for the user, returns thread instance
         '''
-        print("Creating new thread object")
+        #print("Creating new thread object")
         new_thread = Thread.create(user=self)
-        print("New thread object created")
+        #print("New thread object created")
         new_thread.systemMessage(f"These are the upcoming elections and their relevant IDs: {str(updateElections())}") 
         return new_thread
 
@@ -113,7 +113,7 @@ class User(Model):
         if self.threads.count() > 0:
             latest_thread = self.threads.order_by(Thread.lastAccessed.desc()).get()
             if not latest_thread.threadIsExpired():
-                print("Thread not expired, returning old thread")
+                #print("Thread not expired, returning old thread")
                 return latest_thread
         return self.createNewThread()
     
@@ -140,9 +140,9 @@ class Thread(Model):
         '''
         Add a message to the thread, update last accessed
         '''
-        print(f"Adding message to thread {self.threadId}")
+        #print(f"Adding message to thread {self.threadId}")
         thread_message = openai_client.beta.threads.messages.create(thread_id = self.threadId, role="user", content=message)
-        print("Updating last accessed of thread")
+        #print("Updating last accessed of thread")
         self.lastAccessed = datetime.now()
         self.save()
     
@@ -150,13 +150,13 @@ class Thread(Model):
         '''
         Add a system message when creating the thread
         '''
-        print("Adding system message:", message)
+        #print("Adding system message:", message)
         system_message = openai_client.beta.threads.messages.create(thread_id = self.threadId, role="user", content=message)
 
     def threadIsExpired(self, EXPIRE_DAY_LIMIT=2):
         '''
         Returns true if the thread is expired (default 2 days expiry)
         '''
-        print("Checking if thread is expired")
+        #print("Checking if thread is expired")
         DAY_IN_UNIX_TIME = 86400
         return (datetime.now() - self.lastAccessed).total_seconds() > EXPIRE_DAY_LIMIT * DAY_IN_UNIX_TIME

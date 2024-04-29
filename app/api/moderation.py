@@ -1,12 +1,12 @@
 from .clients import openai_client
 
 def moderation_check(response):
-    print("running moderation check")
+    #print("running moderation check")
     response = openai_client.moderations.create(input=response)
     return not response.results[0].flagged
 
 def relevance_check(response):
-    print("running relevance check")
+    #print("running relevance check")
     answer = openai_client.chat.completions.create(
                 model="gpt-3.5-turbo-0125",
                 messages=[
@@ -14,18 +14,18 @@ def relevance_check(response):
                     {"role": "user", "content": response}
                 ]
             )
-    print(answer)
+    #print(answer)
     return "548034482" in answer.choices[0].message.content
         
 
 
 def check_response(response):
     if not moderation_check(response):
-        print("FAILS MODERATION")
+        #print("FAILS MODERATION")
         return False
     
     if not relevance_check(response):
-        print("FAILS RELEVANCE")
+        #print("FAILS RELEVANCE")
         return False
     
     return True

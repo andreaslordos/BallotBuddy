@@ -13,21 +13,21 @@ def getReply(phone, message):
 
     # check if user exists
     # if user exists, load user and store in var user
-    print("Searching for user")
+    #print("Searching for user")
     user = User.select().where(User.phone == phone).first()
     
     
     # otherwise create new user with phone number, and store in var user
     if not user:
-        print("User not found, creating now")
+        #print("User not found, creating now")
         user = User.create(phone=phone)
-        print("User created")
+        #print("User created")
     
-    print("User loaded:", user)
+    #print("User loaded:", user)
 
     # add message to latest thread (created if it does not exist)
     currentThreadId = user.addToThread(message)
-    print("Users latest thread ID:", currentThreadId)
+    #print("Users latest thread ID:", currentThreadId)
     
     # at this point, you have currentThreadId which contains the ID of the most recent, with the newest message added
     # get response from AI
