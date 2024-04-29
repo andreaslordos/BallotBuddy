@@ -6,7 +6,7 @@ from .moderation import check_response
 def getReply(phone, message):
 
     if not check_response(message):
-        return ["FAILED MODERATION CHECK"]
+        return "FAILED MODERATION CHECK"
     
     # connect to db
     db.connect()
@@ -37,7 +37,7 @@ def getReply(phone, message):
     db.close()
 
     if not check_response('\n'.join(returnedMessage)):
-        return ["FAILED MODERATION CHECK"]
+        return "FAILED MODERATION CHECK"
     
     # return message from AI
-    return returnedMessage
+    return '\n'.join(returnedMessage)

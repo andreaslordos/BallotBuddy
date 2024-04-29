@@ -45,6 +45,7 @@ class User(Model):
         for key, value in details.items():
             if hasattr(self, key):
                 setattr(self, key, value)
+        self.save()
         return True
     
     def getInfo(self):
@@ -69,10 +70,8 @@ class User(Model):
             value = getattr(self, attribute, None)
             print(attribute, value)
             if attribute in self.essentials and value is None:
-                print("In mandatory_missing with", attribute)
                 mandatory_missing.append(attribute)
             elif value is None:
-                print("In optional missing with", attribute)
                 optional_missing.append(attribute)
         print("Mandatory attributes still missing:",str(mandatory_missing))
         print("Optional attributes still missing:",str(optional_missing))

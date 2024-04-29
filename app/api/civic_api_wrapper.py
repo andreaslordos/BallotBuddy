@@ -19,7 +19,7 @@ def get_voter_info(address, electionId):
     response_json = response.json()
 
     if 'pollingLocations' not in response_json:
-        return "ADDRESS IS NOT ELIGIBLE TO VOTE IN ELECTION. What follows is the relevant authority's election office info so that the user can find out more: " + str(response_json)
+        return "COULD NOT FIGURE OUT WHETHER ADDRESS IS ELIGIBLE TO VOTE. What follows is the relevant authority's election office info so that the user can find out more through official's websites: " + str(response_json)
     
     return response.json()
 
