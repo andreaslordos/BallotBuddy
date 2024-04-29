@@ -94,7 +94,6 @@ class User(Model):
         print("Creating new thread object")
         new_thread = Thread.create(user=self)
         print("New thread object created")
-        print("Adding system message with elections data")
         new_thread.systemMessage(f"These are the upcoming elections and their relevant IDs: {str(updateElections())}") 
         return new_thread
 
@@ -104,7 +103,6 @@ class User(Model):
         '''
         # fetch latest thread that isn't expired
         latest_thread = self.getLatestThread()
-        print("Adding new message to thread belonging to",self.phone)
         latest_thread.addMessage(message)
         return latest_thread.threadId
 
@@ -142,19 +140,17 @@ class Thread(Model):
         '''
         Add a message to the thread, update last accessed
         '''
-        print("Adding message to thread")
+        print(f"Adding message to thread {self.threadId}")
         thread_message = openai_client.beta.threads.messages.create(thread_id = self.threadId, role="user", content=message)
         print("Updating last accessed of thread")
         self.lastAccessed = datetime.now()
-        print("Saving update")
         self.save()
     
     def systemMessage(self, message):
         '''
         Add a system message when creating the thread
         '''
-        print("Adding system message to thread")
-        print("System message:", message)
+        print("Adding system message:", message)
         system_message = openai_client.beta.threads.messages.create(thread_id = self.threadId, role="user", content=message)
 
     def threadIsExpired(self, EXPIRE_DAY_LIMIT=2):

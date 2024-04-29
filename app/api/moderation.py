@@ -6,7 +6,6 @@ def moderation_check(response):
     return not response.results[0].flagged
 
 def relevance_check(response):
-    print(response)
     print("running relevance check")
     answer = openai_client.chat.completions.create(
                 model="gpt-3.5-turbo-0125",
