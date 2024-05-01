@@ -1,0 +1,110 @@
+.chatbox {
+    height: 100vh;
+    margin-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .chatbox::before {
+    content: "BallotBuddy";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.5); /* Greyed out at half opacity */
+    pointer-events: none; /* This makes sure the watermark won't block any click events */
+    display: block; /* By default, before has a display of inline */
+    z-index: -1; /* This ensures that it stays below the chat messages */
+  }
+
+  .chatbox.has-messages::before {
+    display: none;
+  }
+
+
+  
+  .messages {
+    overflow-y: auto;
+    flex-grow: 1;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column; /* Default is column, so you can also remove this line if you prefer */
+  }
+    
+  .message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    max-width: 60%;  /* Ensuring chat bubbles don't take the entire width */
+    display: inline-block;
+  }
+
+  .message p {
+    margin: 0;
+  }
+  /* Additional style for images within the chatbox */
+    .message img {
+        max-width: 100%;  /* Ensures images don't exceed the width of the message bubble */
+        max-height: 300px;  /* Set a maximum height for images so they don't take up too much vertical space */
+        display: block;  /* Display images as block-level elements */
+        margin: 0 auto;  /* Center images horizontally within the message bubble */
+    }
+
+  
+  .message.you {
+    background-color: #e6f7ff;
+    align-self: flex-end;
+  }
+  
+  .message.bot {
+    background-color: #ffedc7;
+    align-self: flex-start;
+  }
+  
+  .input-area {
+    bottom: 0;
+    right: 0; /* Change from using 'left' and 'transform' to align it to the right */
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 -1px 10px rgba(0,0,0,0.1);
+    display: flex;
+    border-top: 1px solid #ddd;
+  }
+
+  
+  .input-area input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+  }
+  
+  .input-area button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-area button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style for the Send button when it's not disabled */
+.input-area button:enabled {
+    background-color: #007BFF;  /* or any color you prefer for the enabled state */
+    cursor: pointer;
+}
+
+/* Style for the Send button when it's disabled */
+.input-area button:disabled {
+    background-color: #CCCCCC;  /* grey color for disabled state */
+    cursor: not-allowed;  /* this will show a "not allowed" cursor when hovered */
+}
+
+  

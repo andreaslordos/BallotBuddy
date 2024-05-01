@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  flex: 2; /* Adjust to your preference. This value determines the width of the sidebar relative to the ChatBox */
+  background-color: #f3f4f6; /* You can choose any color */
+  border-right: 1px solid #ddd; /* Dividing line */
+}
+
+.chat-container {
+  flex: 8; /* Adjust to your preference. This value determines the width of the ChatBox relative to the sidebar */
+}
