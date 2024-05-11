@@ -39,6 +39,482 @@
         "[\"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\", \"Yes, you can register to vote in person on Election Day in Wisconsin. The in-person registration deadline is available up to and including on Election Day\\u30105:0\\u2020source\\u3011.\"]": {
             "passed": true,
             "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"The voter registration deadlines in Alaska are as follows:\\n\\n- **Online registration deadline:** 30 days before Election Day\\n- **Register by mail deadline:** Must be postmarked 30 days before Election Day\\n- **In person registration deadline:** 30 days before Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"The voter registration deadline in Alaska is 30 days before any election.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"1. Online: You can register to vote online through the Arkansas Secretary of State's website. \\n2. In Person: You can register to vote in person at your county clerk's office, the Arkansas Secretary of State's office, or any designated voter registration agency. \\n3. By Mail: You can download a voter registration form from the Arkansas Secretary of State's website, fill it out, and mail it to your county clerk's office. \\n4. Through the Department of Motor Vehicles: When applying for or renewing your driver's license or state identification card, you can also register to vote at the same time. \\n5. At Voter Registration Drives: You can register to vote at various voter registration drives held in your community.\", \"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"You can check your voter registration status in California by visiting the California Secretary of State's website and using their online voter registration lookup tool. Just enter your first and last name, date of birth, and the county you are registered in to see your voter registration status. You can also contact your county elections office directly to verify your voter registration status.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Florida, the in-person registration deadline is 29 days before Election Day.\", \"The deadline to register to vote in person in Florida is on Election Day at the voter's local Clerk of Court's office.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\", \"Yes, Mississippi offers online voter registration. You can register to vote online at the Mississippi Secretary of State's website.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\", \"The deadline to register to vote by mail in New Mexico is 28 days before the election.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To register to vote in North Dakota, you can do so by following these steps:\\n\\n1. Visit the North Dakota Secretary of State\\u2019s website and fill out the online voter registration form. You can also download, print, and complete a paper voter registration form.\\n\\n2. Submit the completed form either online, by mail, or in person to your local county auditor\\u2019s office.\\n\\n3. If mailing in your registration form, the address will be located on the form. If submitting in person, visit your local county auditor\\u2019s office or other designated location.\\n\\n4. You will need to provide proof of identification and proof of North Dakota residency when registering. Acceptable forms of identification and residency documents can be found on the registration form or website.\\n\\n5. Once your registration is processed, you will receive a voter registration card in the mail. This card will confirm your registration and provide information on where and when to vote.\\n\\nIt is important to note that North Dakota does not have voter registration deadlines, so you can register at any time before an election. Additionally, individuals can also register on Election Day at their polling place with proper identification.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In South Carolina, the online registration deadline is 30 days before Election Day.\", \"The online voter registration deadline in South Carolina is 11:59pm, 30 days before Election Day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"To check your voter registration status in Puerto Rico, you can visit the State Elections Commission website at https://comisiondeelecciones.pr/. On the website, you can click on the \\\"Voter Information\\\" tab and then select \\\"Consultation of voter registration status\\\" where you can enter your information to check your voter registration status. You can also contact the State Elections Commission at 787-777-8683 for assistance with checking your voter registration status.\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"No, Wisconsin does not offer same day voter registration. In order to vote in Wisconsin, you must register to vote at least 20 days prior to Election Day. You can register to vote in person at your municipal clerk's office or at a designated registration site, or you can register online or by mail. Make sure to check the registration deadline for the specific election you want to vote in, as it can vary.\", \"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"The voter registration deadline in Alaska varies depending on the type of election. For primary elections, voters must register by the last Sunday in July. For general elections, the registration deadline is the fourth Sunday before the election. Voters can also register in person at their polling place on Election Day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"In Alaska, you must register to vote at least 30 days before the election in which you wish to vote.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"You can check your voter registration status in California by visiting the California Secretary of State's website and using the \\\"Check Your Voter Registration Status\\\" tool. You can also contact your county elections office to verify your registration status. Additionally, you can check your registration status by calling the California Secretary of State's toll-free voter hotline at (800) 345-VOTE.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\", \"You can verify if you are registered to vote in California by visiting the California Secretary of State's website and using the online voter registration tool. Alternatively, you can contact your county elections office to confirm your voter registration status.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\", \"To register to vote in Arkansas, you must meet the following qualifications:\\n- Be a U.S. citizen\\n- Be an Arkansas resident\\n- Be at least 18 years old on or before the next election\\n- Not be a convicted felon whose sentence has not been discharged or pardoned\\n- Not be a mentally incompetent person as declared by a court\\n\\nYou can register to vote in Arkansas online, by mail, or in person. Here are the ways to register:\\n\\n1. Online: You can register to vote online by visiting the Arkansas Secretary of State's website and completing the online voter registration form.\\n\\n2. By Mail: You can download and print a voter registration application from the Arkansas Secretary of State's website, fill out the form, and mail it to your county clerk's office. You can also request a voter registration application be sent to you by contacting your county clerk's office.\\n\\n3. In Person: You can register to vote in person at your county clerk's office, the Arkansas Secretary of State's office, or any other location designated by the Secretary of State.\\n\\nThe deadline to register to vote in Arkansas is 30 days before the election. If you miss the deadline, you can still register and vote in person during the early voting period or on Election Day by showing proper identification.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"1. Online: Eligible Arkansas residents can register to vote online through the Arkansas Secretary of State's website.\\n\\n2. In person: Residents can register to vote in person at various locations, including your county clerk's office, Arkansas State Revenue Office, or certain public assistance agencies.\\n\\n3. By mail: Arkansas residents can download a voter registration form from the Secretary of State's website, fill it out, and then mail it to your county clerk's office.\\n\\n4. At the Department of Motor Vehicles: When applying for or renewing a driver's license at the DMV, you have the option to register to vote.\\n\\n5. Voter registration drives: Various organizations and groups may hold voter registration drives to help eligible individuals register to vote. Check for upcoming drives in your community.\\n\\n6. Military and overseas citizens: Military members and eligible family members can register to vote through the Arkansas Secretary of State's website or through the Federal Voting Assistance Program.\", \"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Florida, the in-person registration deadline is 29 days before Election Day.\", \"The last day to register to vote in person in Florida is on Election Day at your county's Supervisor of Elections office. However, it is recommended to register as early as possible to ensure that your registration is processed in time for the election.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Florida, the in-person registration deadline is 29 days before Election Day.\", \"The deadline to register to vote in person in Florida is 29 days before the election.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\", \"Yes, online voter registration is available in Mississippi. Eligible residents can register to vote online through the Secretary of State's website.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"No, Mississippi does not currently offer online voter registration. You must register to vote in person or by mail.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To register to vote in North Dakota, you must meet the following criteria:\\n\\n1. Be a U.S. citizen\\n2. Be a resident of North Dakota\\n3. Be at least 18 years old on or before the next election\\n4. Have lived in the precinct at least 30 days before the election\\n\\nYou can register to vote in North Dakota by completing a Voter Registration Application form. The form can be found on the North Dakota Secretary of State's website, at your county auditor's office, or at various state and local government offices.\\n\\nYou can submit your completed form in person at your county auditor's office or by mail. The form must be postmarked or submitted at least 15 days before the election in which you wish to vote.\\n\\nYou can also register to vote at your polling place on Election Day if you bring a valid form of identification with you.\\n\\nFor more information on voter registration in North Dakota, you can visit the North Dakota Secretary of State's website or contact your local county auditor's office.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In order to register to vote in North Dakota, an individual must meet the following requirements:\\n\\n1. Be a citizen of the United States\\n2. Be a resident of North Dakota\\n3. Be at least 18 years old on or before Election Day\\n4. Not have been declared by a court of law to be legally incompetent\\n5. Not have been convicted of a felony and not have been judged by a court of law to be legally incompetent unless the person's voting rights have been restored\\n6. Provide valid identification, such as a driver's license or state identification card, or provide the last four digits of their Social Security number\\n\\nIndividuals can register to vote online, by mail, or in person at their county's election office.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In New Mexico, mail-in voter registration applications must be postmarked no later than 28 days before Election Day.\", \"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In South Carolina, the online registration deadline is 30 days before Election Day.\", \"The online voter registration deadline in South Carolina is 10 days before the election.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In South Carolina, the online registration deadline is 30 days before Election Day.\", \"The last day to register online to vote in South Carolina is October 3, 2022.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"No, it is not possible to register to vote in person on the day of the election in Wisconsin. The deadline for voter registration in Wisconsin is 20 days before the election. Voters must register before that deadline in order to be eligible to vote on Election Day.\", \"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"No, you cannot register to vote in person on Election Day in Wisconsin. The deadline to register to vote in Wisconsin is 20 days before Election Day. If you are not already registered, you will not be able to vote in the current election. However, you can still register to vote for future elections by visiting your local municipal clerk's office or the Wisconsin Election Commission.\", \"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\", \"You can verify your voter registration in Puerto Rico by visiting the Electoral Commission website at https://cee.pr.gov. On the website, you can use the Voter Information tool to check your registration status and polling place location. You can also contact the Electoral Commission by phone at 787-777-8683 for assistance with verifying your voter registration.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To check your voter registration status in Puerto Rico, you can visit the website of the State Commission on Elections (Comisi\\u00f3n Estatal de Elecciones) at ceepur.org. On the homepage, there is a tab called \\\"Consulta tu Status Electoral\\\" where you can enter your information to check your registration status. You can also call the State Commission on Elections at 1-787-777-8689 or visit their office in person. Additionally, you can check with your local municipality or electoral office for assistance in verifying your registration status.\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"The voter registration deadline in Alaska is 30 days before any election. This means that you must register to vote by the close of business on the thirtieth day before any regular or special election in order to be eligible to vote in that election. However, Alaska also allows for same-day voter registration at polling places on Election Day, so eligible individuals can still register and vote on the same day if they miss the deadline.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"The voter registration deadline in Alaska is 30 days before the election.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"The voter registration deadline in Alaska is 30 days before an election. For the 2022 primary election, the deadline to register to vote is July 3, 2022.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"The voter registration deadline for the state of Alaska is 30 days before any election. This means that in order to be eligible to vote in an election, you must register to vote at least 30 days before that election takes place. It is important to note that you can also register to vote on Election Day in Alaska if you bring proof of residency and identification with you to the polling place.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"In Alaska, the voter registration deadline for the upcoming general election is 30 days before the election date. For specific deadlines and information on registering to vote in Alaska, it is recommended to visit the Alaska Division of Elections website or contact the local election office.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"You can check your voter registration status in California by visiting the California Secretary of State's website and using the \\\"Check Your Voter Registration Status\\\" tool. You can access the tool here: https://voterstatus.sos.ca.gov/. \\n\\nYou will need to enter some personal information, such as your name, date of birth, and California driver's license or identification number to verify your voter registration status. Once you submit the information, the tool will display your current voter registration status, including your polling place location and information about your upcoming election.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"In Alaska, the voter registration deadline for the general election is 30 days before election day. For the 2022 general election, the voter registration deadline is October 9, 2022.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Arkansas, you can register to vote in the following ways:\\n\\n1. Register online: You can register to vote online through the Arkansas Secretary of State's website if you have a valid Arkansas driver's license or state ID card.\\n\\n2. Register by mail: You can download a voter registration form from the Arkansas Secretary of State's website, fill it out, and mail it to your county clerk's office.\\n\\n3. Register in person: You can register to vote in person at your county clerk's office, any Arkansas State Revenue Office, public assistance agencies, disability agencies, military recruitment offices, or voter registration drives.\\n\\n4. Register at the Department of Motor Vehicles: If you are applying for or renewing your driver's license or state ID card at the Department of Motor Vehicles, you can also register to vote at the same time.\\n\\n5. Register at your local library: Some libraries in Arkansas may offer voter registration services.\\n\\n6. Register at other government agencies: You can also register to vote at various government agencies such as the Department of Human Services, Department of Health, or Department of Higher Education.\", \"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Florida, the in-person registration deadline is 29 days before Election Day.\", \"The deadline to register to vote in person in Florida is on Election Day. Voters can register in person at their county's Supervisor of Elections office on Election Day before the polls close.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"No, currently Mississippi does not offer online voter registration. Voters must register in person or by mail.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To register to vote in North Dakota, you must meet the following requirements:\\n\\n1. Be a citizen of the United States\\n2. Be a resident of North Dakota and a resident at your current address for at least 30 days before the election\\n3. Be at least 18 years old on or before the next election\\n4. Not have been judged \\u201cincompetent\\u201d by a court\\n\\nTo register to vote, you can:\\n\\n1. Visit the North Dakota Secretary of State website and fill out the online registration form. You will need to provide your North Dakota driver's license number or North Dakota ID number, as well as your social security number.\\n2. Register in person at your county's office. You will need to fill out a voter registration form and provide proof of identification and residence.\\n3. Register on Election Day at your polling place. You will need to bring proof of identification and residence with you to register at the polls.\\n\\nIf you are unable to provide identification and proof of residence, you can also use a voter identification card issued by a North Dakota a polling place official, or a driver's license or non-driver's ID card issued by a state other than North Dakota. \\n\\nIf you have any questions or need more information, you can contact the North Dakota Secretary of State's office or your local county election office.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In South Carolina, the online registration deadline is 30 days before Election Day.\", \"The online voter registration deadline in South Carolina is 30 days before the upcoming election.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"No, unfortunately Wisconsin does not have same-day voter registration on Election Day. To vote in Wisconsin, you must register beforehand by the registration deadline. The deadline to register to vote is 20 days before Election Day. You can register online, by mail, or in person at your local municipal clerk's office or at a designated voter registration location. Make sure to check the specific registration deadlines and requirements in Wisconsin for the upcoming election.\", \"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"You can check your voter registration status in Puerto Rico by visiting the website of the State Commission on Elections of Puerto Rico (CEE). On the website, there should be a section where you can enter your information, such as your name and ID number, to check your voter registration status. You can also contact the CEE directly by phone or email to inquire about your voter registration status.\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"You can check your voter registration status in California by visiting the California Secretary of State's website and using their online voter registration tool. Alternatively, you can contact your county elections office directly to inquire about your voter registration status.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the deadline to register to vote is 30 days before an election.\", \"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\", \"You can verify if you are registered to vote in California by visiting the California Secretary of State's website and using their online voter registration verification tool. You can access the tool by visiting: https://voterstatus.sos.ca.gov/\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"1. Online: You can register to vote online through the Arkansas Secretary of State's website by completing the online voter registration form.\\n\\n2. By mail: You can download a printable voter registration form from the Arkansas Secretary of State's website, complete the form, and mail it to your county clerk's office.\\n\\n3. In person: You can register to vote in person at your county clerk's office, a public library, Department of Motor Vehicles (DMV) office, or other designated voter registration locations.\\n\\n4. At a voter registration drive: You can register to vote at a voter registration drive conducted by a political organization, community group, or other entity.\\n\\n5. Through a designated agency: If you receive services from certain agencies such as the Department of Human Services, Department of Veteran Affairs, or disability services agencies, you can register to vote through these agencies.\\n\\n6. At the polls: You can also register to vote on Election Day at your polling place if you bring valid identification and proof of residence. This is known as same-day voter registration.\", \"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\", \"To register to vote in Arkansas, one must meet the following eligibility requirements:\\n\\n1. Be a citizen of the United States\\n2. Be a resident of Arkansas\\n3. Be at least 18 years old on or before the next election\\n4. Not be a convicted felon whose sentence has not been discharged or pardoned\\n\\nTo register to vote in Arkansas, one can:\\n1. Register in person at their county clerk's office or any public library\\n2. Download and print a voter registration form from the Arkansas Secretary of State website and mail it to the county clerk's office\\n3. Register online through the Arkansas Secretary of State's website\\n\\nThe deadline to register to vote in Arkansas is 30 days before an election. After registering, voters will receive a voter registration card in the mail.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Florida, the in-person registration deadline is 29 days before Election Day.\", \"The deadline to register to vote in person in Florida is on election day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Florida, the in-person registration deadline is 29 days before Election Day.\", \"The last day to register to vote in person in Florida is on election day. However, it is recommended to register as early as possible to ensure your registration is processed in time for the election.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"No, unfortunately, Mississippi does not currently offer online voter registration. You will need to register to vote in person or by mail.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\", \"Yes, online voter registration is available in Mississippi. Mississippi residents can register to vote or update their voter information online through the Mississippi Secretary of State's website.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"To register to vote in North Dakota, you must meet the following requirements:\\n\\n1. Be a U.S. citizen\\n2. Be a resident of North Dakota\\n3. Be at least 18 years old on or before Election Day\\n4. Not be convicted of a felony unless your sentence is completed or you have been discharged from your sentence\\n\\nTo register to vote, you can fill out a voter registration application form and submit it to your county's election office. You can download the voter registration form from the North Dakota Secretary of State's website, or pick one up at your county's election office, DMV, public assistance offices, or other government offices. You can also register to vote online through the North Dakota Secretary of State's website.\\n\\nIf you have any questions or need assistance with the voter registration process, you can contact your county's election office or the North Dakota Secretary of State's office for help.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\", \"Mail-in voter registration applications must be postmarked or received by the county clerk's office 28 days before the election in New Mexico.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To register to vote in North Dakota, an individual must meet the following requirements:\\n\\n1. Be a citizen of the United States\\n2. Be at least 18 years old on or before the next election\\n3. Have lived in the precinct for at least 30 days before the election\\n4. Provide a valid form of identification with a current North Dakota address\\n\\nAdditionally, individuals who have been convicted of a felony and are currently serving a sentence or on probation or parole are not eligible to vote in North Dakota.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In South Carolina, the online registration deadline is 30 days before Election Day.\", \"The online voter registration deadline in South Carolina is 30 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In South Carolina, the online registration deadline is 30 days before Election Day.\", \"The last day to register online to vote in South Carolina is October 2nd, 2022.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"No, you cannot register to vote in person on Election Day in Wisconsin. The deadline to register to vote is 20 days before Election Day. However, you can register to vote in person at your municipal clerk's office up until the Friday before Election Day.\", \"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"You can check your voter registration status in Puerto Rico by visiting the CEEPUR website (State Commission on Elections of Puerto Rico) at https://cee.pr.gov/. From there, navigate to the \\u201cVoter Information\\u201d section where you can enter your information to check your voter registration status. You can also contact the CEEPUR directly by calling their office at (787) 777-8681.\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"No, in Wisconsin you must register to vote at least 20 days before the election. Same-day voter registration is not allowed in the state.\", \"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\", \"You can verify your voter registration in Puerto Rico by visiting the State Elections Commission website at https://registrovotantes.ceepur.org/. From there, you can access the Voter Information System to check your registration status and make sure all your information is up to date.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"To check your voter registration status in California, you can use several methods to ensure that your details are up-to-date and that you are eligible to vote in upcoming elections. Here are the steps you can follow:\\n\\n1. **Online**:\\n   - Visit the California Secretary of State\\u2019s official website. Look for the section dedicated to voter registration, which often includes a tool to check your registration status.\\n   - You can access this tool directly by visiting: [VoterStatus.sos.ca.gov](https://voterstatus.sos.ca.gov/). You will need to provide some personal information such as your name, date of birth, and the last four digits of your Social Security number or your driver\\u2019s license number to verify your identity and review your status.\\n\\n2. **By Phone**:\\n   - You can call the California Secretary of State's office at (800) 345-VOTE (8683). This toll-free number can be used to inquire about your voter registration status. Be prepared to provide some personal information over the phone for identification purposes.\\n\\n3. **In Person**:\\n   - Visit your local county elections office. You can find the address and contact details for your county elections office on the California Secretary of State\\u2019s website. When visiting in person, have your identification ready to facilitate the verification process.\\n\\n4. **Mail**:\\n   - You can also send a written inquiry to your county elections office. Include your name, your residential address, and ask for confirmation of your voter registration status. They may send you a response by mail or request additional information if needed.\\n\\n5. **Email or Online Contact Forms**:\\n   - Some counties may offer the option to contact them through email or through an online contact form on their websites. This can be a convenient way to inquire about your registration status without having to visit in person or make a phone call.\\n\\nIt's a good idea to check your registration well ahead of any registration deadlines for upcoming elections to ensure you have time to update your registration if necessary. This is especially important if you have recently moved, changed your name, or wish to change your political party affiliation.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the deadline to register to vote is 30 days before any election. This means you need to be registered by this date in order to participate in the upcoming election. You can register to vote in Alaska online, by mail, or in person. If registering by mail, your application must be postmarked at least 30 days before the election. For accurate and up-to-date information, it's best to check with the Alaska Division of Elections or their official website.\", \"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"As of the last update, in Florida, the deadline to register to vote is 29 days before an election. This deadline applies whether you are registering in person, by mail, or online. To ensure you have the most accurate and up-to-date information, I recommend visiting the official website of the Florida Division of Elections or contacting your local elections office, as deadlines can sometimes change or vary slightly depending on specific circumstances or changes in legislation.\", \"In Florida, the in-person registration deadline is 29 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"As of my last update in 2023, to register to vote in Arkansas, you have several options available:\\n\\n1. **In Person**: You can register to vote in person at your county clerk\\u2019s office. Additionally, voter registration services are also available at various public facilities such as the DMV, public libraries, disability agencies, and military recruitment offices.\\n\\n2. **By Mail**: You can obtain a voter registration form by downloading it from the Arkansas Secretary of State\\u2019s website or requesting one from your local county clerk's office. After completing the form, mail it to the local county clerk\\u2019s office.\\n\\n3. **Using Paper Registration**: Forms can often be found at various public offices like libraries and post offices. Once you have completed the form, you should mail it to your county\\u2019s clerk office.\\n\\nTo successfully register, you must meet the following criteria:\\n- Be a U.S. citizen\\n- Be an Arkansas resident (residing in Arkansas at least 31 days prior to the first election in which you will vote)\\n- Be age 18 or turn 18 on or before the next election\\n- Not be a convicted felon whose sentence has not been discharged or pardoned\\n- Not be presently adjudged as mentally incompetent as to your ability to vote by a court of competent jurisdiction\\n\\nAfter submitting your registration, you should receive a verification notice in the mail. If you do not, or if you have any questions regarding your registration status, you should contact your county clerk. It\\u2019s also advisable to keep track of registration deadlines, which typically fall about 30 days before an election.\\n\\nFor the most accurate and up-to-date information, always check the official Arkansas Secretary of State\\u2019s website or contact your local county clerk's office.\", \"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"As of my last update in September 2021, Mississippi does not offer online registration for voting. Residents in Mississippi need to register either in person or by mail. To register by mail, you can download and fill out a voter registration form from the Secretary of State's website and send it to your local Circuit Clerk's office. To do so in person, you can visit your Circuit Clerk\\u2019s office or the municipal clerk's office, among other locations such as libraries and DMV offices.\\n\\nMake sure to check the latest information from the Mississippi Secretary of State or local election offices as procedures and regulations can change.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"As of 2023, in New Mexico, the deadline to apply for an absentee ballot, which allows you to vote by mail, is generally the Thursday before Election Day. However, it's recommended to check with the New Mexico Secretary of State's website or contact your local county clerk's office for the most accurate and current information, as rules and deadlines may change.\", \"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"As of my last update in 2023, in South Carolina, the deadline for online voter registration is 30 days before the election. To ensure you meet all requirements and deadlines, it's a good idea to check the most current information on the South Carolina State Election Commission's website or contact them directly.\", \"In South Carolina, the online registration deadline is 30 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"As of my last update, North Dakota is unique in the United States because it does not require voter registration. If you are a resident of North Dakota and eligible to vote, you do not need to register ahead of time. However, you do need to meet certain requirements to vote on Election Day:\\n\\n1. **Residency**: You must be a resident of North Dakota and of the precinct where you plan to vote for at least 30 days prior to the election date.\\n\\n2. **Age**: You must be at least 18 years old on the day of the election.\\n\\n3. **Citizenship**: You must be a U.S. citizen.\\n\\n4. **Legal Capacity**: You must not have been declared mentally incompetent by a court of law.\\n\\n5. **Criminal Record**: You must not be a convicted felon without having your civil rights restored.\\n\\nTo vote, simply go to your designated polling place on Election Day. You will need to show identification that includes your name, residential address, and date of birth. Acceptable forms of ID include:\\n- A North Dakota driver\\u2019s license or non-driver\\u2019s ID card\\n- A tribal government issued ID card\\n- A long-term care identification certificate (provided by a North Dakota facility)\\n\\nIf your ID does not include all the required information or you do not have an ID, you can still vote by completing an affidavit at the polling place attesting to your identity.\\n\\nAlways check the latest guidelines from the North Dakota Secretary of State website or local election offices as rules and regulations may change.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To check your voter registration status in Puerto Rico, you will need to follow these steps:\\n\\n1. **Contact the Puerto Rico State Elections Commission (Comisi\\u00f3n Estatal de Elecciones de Puerto Rico, CEE)**\\n   - The CEE is the agency responsible for managing elections and voter registration in Puerto Rico. You can contact them to inquire about your voter registration status.\\n\\n2. **Visit the CEE Website**\\n   - The CEE website often provides information and resources regarding voter registration, including the status checking process. Visit the website at [https://cee.pr.gov/](https://cee.pr.gov/) for details and updates.\\n\\n3. **Call or Visit Locally**\\n   - You can call or visit your local CEE office to inquire directly about your registration status. It might be helpful to have your identification information ready when you contact them.\\n\\n4. **Provide Necessary Information**\\n   - When checking your voter registration status, you might be asked for personal information such as your full name, the last four digits of your Social Security number, and your date of birth to verify your identity.\\n\\n5. **Check During Voter Registration Drives**\\n   - Occasionally, there may be voter registration drives or similar events where you can check your registration status in person.\\n\\nIf you encounter any issues or need more specific guidance, the CEE is likely your best resource. They can provide you with the most accurate and up-to-date information regarding voter registration and voting procedures in Puerto Rico.\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"Yes, as of my last update in 2023, Wisconsin allows voters to register on Election Day. You can register at your designated polling place in your municipality. To register, you must bring acceptable proof of residence to verify your address. Acceptable documentation can include a Wisconsin driver\\u2019s license or state ID card with your current address, a utility bill from the last 90 days, a bank statement, or other official documents that show your name and current address.\\n\\nMake sure to check any potential changes or specific requirements by visiting an official Wisconsin government elections website or by contacting your local election officials.\", \"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the deadline for voter registration is generally 30 days before any election. This means you must register to vote at least 30 days before an election day in order to participate in that election. Voter registration can be completed online, by mail, or in-person at designated registration offices. For exact dates related to specific upcoming elections or for recent changes due to state legislation or judicial rulings, you should check the Alaska Division of Elections website or contact them directly to ensure you have the most current information.\", \"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"In Alaska, the registration deadline to vote is 30 days before an election. This means you must register to vote at least 30 days before the date of the election in which you wish to participate. You can register to vote online, by mail, or in person. Always check the specific dates as they relate to an upcoming election and verify any changes or updates with the Alaska Division of Elections.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To check your voter registration status in California, you can use the following methods:\\n\\n1. **Online**: Visit the California Secretary of State\\u2019s website. They provide an online tool where you can enter your personal information such as name, date of birth, and the last four digits of your Social Security number to check your registration status. The URL for this service is typically: [https://voterstatus.sos.ca.gov/](https://voterstatus.sos.ca.gov/)\\n\\n2. **By Phone**: You can call your local county elections office. Each county in California has its own Registrar of Voters or Election Office, and you can call them to inquire about your registration status. The contact numbers for each county's election office can be found on the California Secretary of State\\u2019s website.\\n\\n3. **In Person**: You can also visit your local county elections office in person to verify your registration status.\\n\\n4. **Mail**: In some instances, you may also request your registration information by mail, though this is less common and might be slower.\\n\\nBe sure to have personal identification information ready when you check (like your full name, date of birth, and address), as this will be required to verify your records. Checking your registration status well before any election gives you ample time to update or correct any details or re-register if needed.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To verify your voter registration status in California, you can visit the California Secretary of State's official website. Here\\u2019s how you can check:\\n\\n1. Go to the California Secretary of State\\u2019s website at [sos.ca.gov](https://www.sos.ca.gov/elections/registration-status).\\n2. Look for the section related to voter registration and click on \\\"Check Your Registration Status.\\\"\\n3. You will be directed to a page where you can choose your county or enter your personal details such as name, date of birth, and the last four digits of your Social Security number or your California driver\\u2019s license number.\\n\\nAlternatively, you can also contact your local county elections office directly. Each county has its own elections office, and contact details can be found on the California Secretary of State's website under the section for county elections offices.\\n\\nRemember, it\\u2019s a good practice to periodically check your voter registration status, especially before election deadlines, to ensure all your information is up-to-date and accurate.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\", \"To register to vote in Arkansas, you can follow these methods as of the latest information available up to 2023:\\n\\n1. **By Mail**: You can download the Voter Registration Application form from the Arkansas Secretary of State's website or obtain a copy from your local county clerk\\u2019s office. Fill out the form completely, and mail it to your local county clerk's office. The application must be postmarked at least 30 days before an election in which you intend to vote.\\n\\n2. **In Person**: You can register in person at several locations:\\n   - Your local county clerk\\u2019s office.\\n   - State Revenue Office, Driver Services (you can register to vote when you apply for or renew your driver\\u2019s license).\\n   - Public libraries, public assistance agencies, disability agencies, and military recruitment offices also offer voter registration services.\\n\\n3. **Using Public Assistance**: While applying for services at various public assistance and disability agencies, you can also register to vote there.\\n\\n4. **During Driver\\u2019s License Renewal**: When you renew or apply for your driver\\u2019s license at the Department of Motor Vehicles (DMV), you can also register to vote.\\n\\n**Eligibility Requirements**: To be eligible to register to vote in Arkansas, you must:\\n   - Be a U.S. citizen.\\n   - Be an Arkansas resident.\\n   - Be aged 18 or turn 18 on or before the next election.\\n   - Not be a convicted felon whose sentence has not been discharged or pardoned.\\n   - Not be currently adjudged mentally incompetent by a court of competent jurisdiction.\\n\\nWhen filling out the registration form, you will need to provide a form of identification. This could be your driver\\u2019s license number or the last four digits of your Social Security number. After submitting your application, you should receive a voter registration card in the mail. If you do not receive this card prior to the election, contact your county clerk's office to verify your registration status.\\n\\nIt\\u2019s important to note that the options for online voter registration are not available in Arkansas as of the last updates before 2023. Always check the most current local regulations as procedures and availability might change.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\", \"To register to vote in Arkansas, you must meet the following criteria:\\n- Be a U.S. citizen.\\n- Be an Arkansas resident (residing in Arkansas at least 31 days prior to the first election in which you will vote).\\n- Be age 18 or turn 18 on or before the next election.\\n- Not be a convicted felon whose sentence has not been discharged or pardoned.\\n- Not be presently adjudged mentally incompetent as to your ability to vote by a court of competent jurisdiction.\\n\\nHere are the steps and methods to register to vote in Arkansas:\\n\\n1. **Obtain a Voter Registration Application**: You can get the voter registration application form from a variety of sources:\\n   - Local county clerk\\u2019s office.\\n   - State Revenue Office, Driver Services (you can register to vote when you apply for or renew your driver\\u2019s license).\\n   - Public libraries or public assistance agencies.\\n   - You can also download and print the form from the Arkansas Secretary of State website.\\n\\n2. **Complete the Application**: Fill out the form completely. Be sure to include your full name, residential address, date of birth, and other required information.\\n\\n3. **Submit the Application**: You must submit the application form by mail or in person:\\n   - By Mail: Send the completed application to your county clerk\\u2019s office.\\n   - In Person: You may hand-deliver it to a variety of official locations including your county clerk\\u2019s office or when updating your driver\\u2019s license at the DMV.\\n\\n4. **Confirmation**: After your application is processed, you will receive a voter registration card in the mail. If you do not receive this card within a few weeks, contact your county clerk's office to confirm your registration.\\n\\n5. **Deadlines**: Make sure you register at least 30 days before an election if you wish to vote in that election.\\n\\nBe mindful of keeping your voter registration information up to date, especially if you change your address, as it may affect your assigned polling place.\\n\\nRemember, the registration process can slightly vary depending on local regulations and updates, so it might be beneficial to verify specific details with local election officials or visit the official state or local election website for the most current information.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"As of my last update, the deadline to register to vote in Florida is 29 days before an election if you are registering in person or through the mail. For online registrations, the deadline is typically at midnight on the 29th day before the election. However, these deadlines are subject to change, so it is important to verify the current dates with local election offices or the official Florida Department of State website to get the most accurate and up-to-date information.\", \"In Florida, the in-person registration deadline is 29 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"As of the last information available, the deadline to register to vote in person in Florida is 29 days before an election. To get specific dates and confirm current requirements, you should check with your local election office or the Florida Division of Elections website, as these deadlines could potentially change.\", \"In Florida, the in-person registration deadline is 29 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"As of my last update in September 2023, Mississippi does not offer online voter registration. Residents in Mississippi must either register in person at their local circuit clerk's office, the DMV, or through other government offices, or they can mail in a voter registration form. Always check the most recent sources or official state websites for the latest information, as laws and regulations can change.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"As of the latest available information, in New Mexico, applications for absentee ballots (voting by mail) must generally be received no later than the Thursday before Election Day. However, it's important to verify this as deadlines may vary for specific elections and years, and rules might change. You should check with the New Mexico Secretary of State's website or contact your local county clerk's office for the most accurate and current information.\", \"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"As of my last update in early 2023, you cannot register to vote online in Mississippi. To register to vote in Mississippi, you must fill out and submit a paper application form. This form can be obtained from your local Circuit Clerk's office, via mail by request, or through downloadable PDFs available on the Secretary of State's website. After completing the form, you can submit it in person or mail it to your Circuit Clerk's office. Ensure that you meet all the registration deadlines to be eligible to vote in upcoming elections. Always check the latest guidelines on the Mississippi Secretary of State's website or contact local officials for the most current information.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In New Mexico, mail-in voter registration applications must be postmarked by the 28th day before an election in order for an individual to be eligible to vote in that election. This means the registration needs to be postmarked at least 28 days before the date of the election to ensure that the registration is processed in time. Always verify the specific deadlines for each election cycle, as they could vary or be adjusted.\", \"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In North Dakota, the registration process for voting is unique compared to other states because North Dakota does not have voter registration. Instead, residents can vote in North Dakota if they meet the eligibility requirements and provide valid identification at the polling place.\\n\\nTo vote in North Dakota, you must be:\\n\\n1. A U.S. citizen;\\n2. At least 18 years old on the day of the election;\\n3. A resident of North Dakota;\\n4. A resident in the precinct for 30 days preceding the election.\\n\\n### What You Need to Vote\\n\\nWhen you go to vote, you must bring a valid form of identification that shows your name, current residential address, and date of birth. Acceptable forms of ID include:\\n\\n- North Dakota driver's license or non-driver\\u2019s identification card\\n- Tribal government issued ID\\n- Long-term care identification certificate (provided by North Dakota facility)\\n\\nStudents can also use a student identification certificate issued by a North Dakota college, or a high school student can use a certificate issued by a high school.\\n\\n### Voting Process\\n\\nOn Election Day, or during early voting, you just need to go to your designated polling location with your ID. There, election officials will verify your eligibility based on your identification.\\n\\n### Special Circumstances\\n\\nIf your ID does not include all the required information, or the information is not current, you can supplement it with additional documentation, such as a utility bill or a bank statement that displays your current address.\\n\\nFor more specific or updated information or if there are any changes in voting procedures, it is advised to check with the North Dakota Secretary of State\\u2019s website or contact your local election office. This will ensure you have the most current and detailed guidelines necessary for voting in your state.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"As of my last update in September 2021, North Dakota is unique among U.S. states as it does not require voter registration. Instead, residents may vote in North Dakota's elections simply by presenting valid proof of ID and residency at the polling place on Election Day.\\n\\nHere are the main requirements for voting in North Dakota:\\n\\n1. **Residency**: Voters must be residents of North Dakota and of the precinct in which they wish to vote for at least 30 days preceding the election.\\n\\n2. **Age**: You must be at least 18 years old on the day of the election to vote.\\n\\n3. **Citizenship**: You must be a U.S. citizen.\\n\\n4. **Identification**: Valid forms of identification include:\\n   - North Dakota driver\\u2019s license or non-driver\\u2019s ID card\\n   - Tribal government issued ID\\n   - Long term care identification certificate (provided by North Dakota facility)\\n   \\n   The ID must include your name, current residential address, and date of birth.\\n\\nVoters without proper ID can still vote by marking a ballot that will be set aside until they provide valid ID. You will need to provide valid identification to the proper election official by the sixth day after the election.\\n\\nRemember to check for any updates or changes to these rules closer to election dates, as voter ID and residency requirements can evolve.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"As of the last update, in South Carolina, the online voter registration deadline is 30 days before an election. However, it is always advisable to check with the official South Carolina Election Commission website or contact local election officials for the most current information, as rules and deadlines can change.\", \"In South Carolina, the online registration deadline is 30 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"As of my last update, the deadline to register online to vote in South Carolina is 30 days before an election. Therefore, you should ensure that your online registration is completed by this deadline if you intend to vote in an upcoming election. However, it's always a good idea to check the most current information available from the South Carolina State Election Commission or a similar official source, as rules and deadlines may change.\", \"In South Carolina, the online registration deadline is 30 days before Election Day.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\", \"Yes, in Wisconsin, you can register to vote in person on Election Day. You can do this at your polling place. Remember to bring appropriate proof of residence documents to complete your registration. Requirements may change, so it's advisable to check the latest information from a reliable local source or the Wisconsin Elections Commission's website to ensure you have all the required documents and information.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\", \"Yes, in Wisconsin, you can register to vote in person on Election Day. You can register at your polling place from 7:00 a.m. to 8:00 p.m. when the polls are open. To register, you will need to provide proof of residence that shows your current name and address. Acceptable documents can include a Wisconsin driver's license or ID card, utility bill, bank statement, or other government documents. After registering, you can cast your vote in that election.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To verify your voter registration in Puerto Rico, you can contact the State Elections Commission (Comisi\\u00f3n Estatal de Elecciones de Puerto Rico, or CEE). They are responsible for managing voter registration and overseeing elections throughout the island.\\n\\nHere are a few ways you could check your voter registration:\\n\\n1. **Online:** Puerto Rico may offer online tools to verify voter registration. You can check the official website of the Comisi\\u00f3n Estatal de Elecciones de Puerto Rico at [https://www.ceepur.org/](https://www.ceepur.org/) to see if they provide an online verification option.\\n\\n2. **Phone:** You can call the Comisi\\u00f3n Estatal de Elecciones de Puerto Rico for direct assistance. Their contact number is usually available on their website.\\n\\n3. **In person:** Visit your local electoral office (Junta de Inscripci\\u00f3n Permanente) in person. You can find the location of your local office on the CEE website or by contacting the Commission.\\n\\nBefore proceeding, ensure that you have necessary identification details handy, such as your Electoral Identification Card number or other personal identification, to facilitate the verification process.\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"To check your voter registration status in Puerto Rico, you can follow these steps:\\n\\n1. **Contact the State Election Commission (Comisi\\u00f3n Estatal de Elecciones, CEE)**: This is the primary government agency responsible for managing voter registrations and elections in Puerto Rico.\\n\\n2. **Visit the CEE Website**: You can visit the official website of the Comisi\\u00f3n Estatal de Elecciones de Puerto Rico. Often, they provide tools or information on how to check your voter registration status online.\\n\\n3. **Call or Visit in Person**: If online resources are not available or if you prefer to handle this in person, you can call or visit your local CEE office. You will typically need to provide some form of identification such as your electoral identification card number or social security number.\\n\\n4. **Electoral Cards**: In Puerto Rico, once registered, voters receive an \\\"electoral identification card\\\" which also serves as proof of registration. If you possess this card, generally, it means you are a registered voter. However, you might still want to confirm that your details are up to date, especially if you have recently changed your address or personal information.\\n\\n5. **Ask for Help**: If you face any issues, local political parties or civic organizations may also be able to assist in checking your registration status and providing information on the voting process.\\n\\nDue to variations in procedure and the availability of online tools, it\\u2019s a good idea to start by visiting the CEE\\u2019s official website or directly contacting them for the most direct guidance. Be aware that the process might require Spanish comprehension as English resources could be limited.\\n\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"You can check your voter registration status in California by visiting the California election website. For detailed instructions and to confirm your status, you can follow the provided link: [California\\u2019s election website](https://voterstatus.sos.ca.gov/?ref=voteusa_en)\\u30105:0\\u2020source\\u3011.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"In Alaska, the voter registration deadlines are as follows:\\n\\n- Online registration deadline: 30 days before Election Day\\n- Register by mail deadline: Must be postmarked 30 days before Election Day\\n- In person registration deadline: 30 days before Election Day\\u30105:0\\u2020all_states_data.md\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Arkansas, to register to vote, you can't use online registration. Instead, you have to find alternative ways to register at Arkansas\\u2019s state election website. Here are some key details regarding voter registration in Arkansas:\\n\\n- **Register by Mail Deadline**: Your application must be postmarked 30 days before Election Day.\\n- **In-Person Registration Deadline**: You must register 30 days before Election Day.\\n\\nIf you're unsure about your registration status, Arkansas provides a way to confirm your voter registration status through their election website\\u30105:1\\u2020all_states_data.md\\u3011.\", \"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Mississippi, online voter registration is currently not available. You can find out alternative ways to register to vote at Mississippi\\u2019s state election website\\u30105:0\\u2020source\\u3011.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\", \"The deadline to register to vote by mail in New Mexico is 28 days before Election Day. This registration must be postmarked by this deadline\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In North Dakota, you are not required to register to vote. You can directly participate in elections without the need for voter registration. For more information about voting in North Dakota, you can visit North Dakota's election website\\u30105:0\\u2020source\\u3011.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\", \"Yes, in Wisconsin, you can register to vote in person on Election Day. Voter registration can be completed at your polling place on the day of the election, allowing for same-day registration and voting\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To check your voter registration status in Puerto Rico, you can visit Puerto Rico\\u2019s election website at [consulta.ceepur.org](https://consulta.ceepur.org/)\\u30105:0\\u2020source\\u3011.\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"In Alaska, the voter registration deadlines are as follows:\\n\\n- **Online registration deadline:** 30 days before Election Day\\n- **Register by mail deadline:** Must be postmarked 30 days before Election Day\\n- **In person registration deadline:** 30 days before Election Day\\n\\nYou can confirm your voter registration status on Alaska's election website\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Alaska, the online registration deadline is 30 days before Election Day. The deadline to register by mail is 30 days before Election Day (must be postmarked by this date). The in-person registration deadline is also 30 days before Election Day.\", \"To register to vote in Alaska, you must meet the following deadlines:\\n\\n- **Online registration deadline:** 30 days before Election Day\\n- **Register by mail deadline:** Must be postmarked 30 days before Election Day\\n- **In person registration deadline:** 30 days before Election Day\\n\\nYou can confirm your voter registration status on [Alaska\\u2019s election website](https://myvoterinformation.alaska.gov/?ref=voteusa_en)\\u30105:0\\u2020all_states_data.md\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To check your voter registration status in California, you can confirm it on California\\u2019s election website at the following link: [Check your voter registration status on California\\u2019s election website](https://voterstatus.sos.ca.gov/?ref=voteusa_en)\\u30105:0\\u2020source\\u3011.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To verify if you are registered to vote in California, you can confirm your voter registration status on California\\u2019s election website. Please visit the following link to check your status: [California\\u2019s election website](https://voterstatus.sos.ca.gov/?ref=voteusa_en)\\u30105:0\\u2020all_states_data.md\\u3011.\", \"You can confirm your voter registration status on California's election website at https://voterstatus.sos.ca.gov/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Arkansas, there are a few ways to register to vote since online registration is not available. You can register to vote in Arkansas by mail or in person. The deadline for registering by mail is that your application must be postmarked 30 days before Election Day. Similarly, the in-person registration deadline is also 30 days before Election Day. For more detailed information on how to register, it's recommended to visit Arkansas\\u2019s state election website directly.\\n\\nTo check your voter registration status, Arkansas provides a voter view website where you can confirm your registration details\\u30105:1\\u2020source\\u3011.\", \"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Online registration is currently not available in Arkansas. You can find out other ways to register to vote, such as by mail or in person, at Arkansas's state election website: https://www.sos.arkansas.gov/elections/voter-information/.\", \"To register to vote in Arkansas, you must do so either by mail or in person, as online registration is not available. Find out ways to register to vote at [Arkansas\\u2019s state election website](https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en). The deadlines for voter registration in Arkansas are as follows:\\n\\n- **Register by mail deadline:** Must be postmarked 30 days before Election Day.\\n- **In person registration deadline:** 30 days before Election Day.\\n\\nTo check your voter registration status, you can confirm it on [Arkansas\\u2019s election website](https://www.voterview.ar-nova.org/voterview?ref=voteusa_en)\\u30105:0\\u2020all_states_data.md\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Florida, the deadline to register to vote in person is 29 days before Election Day\\u30105:0\\u2020source\\u3011.\", \"In Florida, the in-person registration deadline is 29 days before Election Day.\"]": {
+            "passed": false,
+            "score": 0.0
+        },
+        "[\"In Florida, the in-person registration deadline is 29 days before Election Day.\", \"The last day to register to vote in person in Florida is 29 days before Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In Mississippi, online voter registration is currently not available. You can find other ways to register to vote at Mississippi\\u2019s state election website. The deadlines for voter registration are as follows: registration by mail must be postmarked 30 days before Election Day, and in-person registration must be completed 30 days before Election Day\\u30105:0\\u2020source\\u3011.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"No, online voter registration is currently not available in Mississippi. You can find out ways to register to vote at Mississippi\\u2019s state election website\\u30105:0\\u2020source\\u3011.\", \"Online registration is currently not available in Mississippi. You can find out other ways to register to vote at Mississippi's state election website: https://www.sos.ms.gov/elections-voting/voter-registration-information.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\", \"The deadline to register to vote by mail in New Mexico is that the registration must be postmarked 28 days before Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In North Dakota, voter registration is not required. You can learn more about voting on [North Dakota's election website](https://vip.sos.nd.gov/PortalList.aspx?ref=voteusa_en)\\u30105:0\\u2020source\\u3011.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In New Mexico, the deadline to register by mail is 28 days before Election Day (the application must be postmarked by this date).\", \"Mail-in voter registration applications in New Mexico must be postmarked 28 days before Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In South Carolina, the online registration deadline is 30 days before Election Day.\", \"The last day to register online to vote in South Carolina is 30 days before Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"In North Dakota, voter registration is not required. Residents can learn more about voting directly on [North Dakota's election website](https://vip.sos.nd.gov/PortalList.aspx?ref=voteusa_en)\\u30105:0\\u2020source\\u3011.\", \"Voter registration is not required in North Dakota. You can learn more about voting in the state on North Dakota's election website: https://vip.sos.nd.gov/PortalList.aspx.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\", \"Yes, in Wisconsin, you can register to vote in person on Election Day. Voter registration deadlines include the options to register in person up to and including on Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"Yes, in Wisconsin, in-person voter registration is available up to and including on Election Day.\", \"Yes, it is possible to register to vote in person on the day of the election in Wisconsin. You can register at your polling place on Election Day\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\", \"You can verify your voter registration status in Puerto Rico by visiting the official Puerto Rico election website. Here is how you can check your status:\\n- **Online**: Confirm your voter registration status on [Puerto Rico\\u2019s election website](https://consulta.ceepur.org/?ref=voteusa_en).\\n\\nFor more details or to start the process, visit the Puerto Rico's election page dedicated to voter registration verification\\u30105:0\\u2020source\\u3011.\"]": {
+            "passed": true,
+            "score": 1.0
+        },
+        "[\"To check your voter registration status in Puerto Rico, you can visit [Puerto Rico\\u2019s election website](https://consulta.ceepur.org/?ref=voteusa_en)\\u30105:0\\u2020source\\u3011.\", \"You can confirm your voter registration status on Puerto Rico's election website at https://consulta.ceepur.org/.\"]": {
+            "passed": true,
+            "score": 1.0
         }
     },
     "version": "1"
